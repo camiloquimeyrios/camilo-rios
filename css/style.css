@@ -1,0 +1,229 @@
+
+/*Esto corresponde a seccion INDEX*/
+
+body{
+
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header form{
+    margin-left: 30%;
+}
+
+main{
+    padding-top: 1%;
+}
+
+h2{
+    padding-left: 2%;
+}
+
+nav{
+    display: flex;
+    margin-left: 60px;
+
+}
+
+nav li{
+    list-style: none; 
+}
+
+nav li img{
+    width: 50%;
+   margin: 0;
+   align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+
+.menu a:hover{
+
+color: white;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+
+.li-link{
+    padding: 10px;
+}
+
+.img-index-inicio{
+    align-items: center;
+    padding-left: 10%;
+    }
+.img-index-inicio img{
+width: 40%;
+}
+
+.slide img{
+    width: 100%;
+    align-items: center;
+}
+
+.slide{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+/*Esto corresponde a seccion NOSOTROS*/
+
+
+
+.container__us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.box__us p{
+    margin-top: 20px;
+    font-weight: 500;
+    color: grey; 
+    font-size: 18px;
+    max-width: 1000px;
+    padding: 40px;
+}
+
+
+.chicabolso img{
+    width: 45%;
+   }
+
+/*Esto corresponde a seccion REGALOS*/
+
+
+.publicidad img{
+    width: 100%;
+    height: 100%;
+}
+
+.publicidad{
+    display:-webkit-inline-box;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 2%;
+}
+
+.publicidad p{
+    font-weight: 500;
+    color: grey; 
+    font-size: 16px;
+}
+
+
+
+/*Esto corresponde a seccion VERANO 2022*/
+
+.catalogo img{
+    width: 30%;
+}
+
+.catalogo p{
+    font-weight: 500;
+    color: grey; 
+    font-size: 16px;
+    max-width: 50%;
+    padding: 2%;
+}
+
+/*Esto corresponde a seccion CONTACTO*/
+
+.visit .formcontact{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.visit .formcontact label{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/*Esto corresponde a seccion FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(/img/footimg.svg);
+    background-size: cover;
+}
+
+.container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logofooter img{
+    width: 200px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: grey; 
+    font-size: 18px;
+}
+
+.box__footer h3{
+    margin-bottom: 30px;
+    color: grey;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: grey;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
