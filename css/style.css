@@ -1,13 +1,12 @@
-
 /*Esto corresponde a seccion INDEX*/
 
-body{
+body {
 
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     display: flex;
     padding-top: 100px;
     align-items: center;
@@ -16,59 +15,60 @@ header{
     padding-right: 50px;
 }
 
-header form{
+header form {
     margin-left: 30%;
 }
 
-main{
+main {
     padding-top: 1%;
 }
 
-h2{
+h2 {
     padding-left: 2%;
 }
 
-nav{
+nav {
     display: flex;
     margin-left: 60px;
 
 }
 
-nav li{
-    list-style: none; 
+nav li {
+    list-style: none;
 }
 
-nav li img{
+nav li img {
     width: 50%;
-   margin: 0;
-   align-items: center;
+    margin: 0;
+    align-items: center;
 }
 
 
-a{
+a {
     text-decoration: none;
 }
-a:visited{
+
+a:visited {
     color: black;
 }
 
-.menu a:hover{
+.menu a:hover {
 
-color: white;
+    color: white;
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     height: 80px;
     margin-right: 10px;
 }
 
-.menu{
+.menu {
     display: flex;
     text-decoration: none;
     color: black;
@@ -76,24 +76,25 @@ color: white;
 }
 
 
-.li-link{
+.li-link {
     padding: 10px;
 }
 
-.img-index-inicio{
+.img-index-inicio {
     align-items: center;
     padding-left: 10%;
-    }
-.img-index-inicio img{
-width: 40%;
 }
 
-.slide img{
+.img-index-inicio img {
+    width: 40%;
+}
+
+.slide img {
     width: 100%;
     align-items: center;
 }
 
-.slide{
+.slide {
     padding-left: 4%;
     padding-right: 4%;
 }
@@ -103,7 +104,7 @@ width: 40%;
 
 
 
-.container__us{
+.container__us {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -113,21 +114,21 @@ width: 40%;
 
 }
 
-.box__us p{
+.box__us p {
     margin-top: 20px;
     font-weight: 500;
-    color: grey; 
+    color: grey;
     font-size: 18px;
     max-width: 1000px;
     padding: 40px;
 }
 
 
-.chicabolso img{
+.chicabolso img {
     width: 45%;
-   }
+}
 
-   .chicabolso img:hover{
+.chicabolso img:hover {
     opacity: 0.7;
     transition: 1s;
     transform: scale(1.1);
@@ -136,21 +137,21 @@ width: 40%;
 /*Esto corresponde a seccion REGALOS*/
 
 
-.publicidad img{
+.publicidad img {
     width: 100%;
     height: 100%;
 }
 
-.publicidad{
-    display:-webkit-inline-box;
+.publicidad {
+    display: -webkit-inline-box;
     justify-content: space-between;
     max-width: 800px;
     margin: 2%;
 }
 
-.publicidad p{
+.publicidad p {
     font-weight: 500;
-    color: grey; 
+    color: grey;
     font-size: 16px;
 }
 
@@ -158,13 +159,13 @@ width: 40%;
 
 /*Esto corresponde a seccion VERANO 2022*/
 
-.catalogo img{
+.catalogo img {
     width: 30%;
 }
 
-.catalogo p{
+.catalogo p {
     font-weight: 500;
-    color: grey; 
+    color: grey;
     font-size: 16px;
     max-width: 50%;
     padding: 2%;
@@ -172,19 +173,19 @@ width: 40%;
 
 /*Esto corresponde a seccion CONTACTO*/
 
-.visit .formcontact{
+.visit .formcontact {
     margin-top: 50px;
     padding: 20px;
 }
 
-.visit .formcontact label{
+.visit .formcontact label {
     margin-top: 50px;
     padding: 20px;
 }
 
 /*Esto corresponde a seccion FOOTER*/
 
-footer{
+footer {
     width: 100%;
     padding: 50px 0px;
     background-image: url(/img/footimg.svg);
@@ -200,66 +201,66 @@ footer{
     margin-top: 100px;
 }
 
-.box__footer{
+.box__footer {
     display: flex;
     flex-direction: column;
     padding: 40px;
 }
 
-.box__footer .logofooter img{
+.box__footer .logofooter img {
     width: 200px;
 }
 
-.box__footer .terms{
+.box__footer .terms {
     max-width: 350px;
     margin-top: 20px;
     font-weight: 500;
-    color: grey; 
+    color: grey;
     font-size: 18px;
 }
 
-.box__footer h3{
+.box__footer h3 {
     margin-bottom: 30px;
     color: grey;
     font-weight: 700;
 }
 
-.box__footer a{
+.box__footer a {
     margin-top: 10px;
     color: grey;
     font-weight: 600;
 }
 
-.box__footer a:hover{
+.box__footer a:hover {
     opacity: 0.8;
 }
 
 /*Media VERSION 576-------*/
 
-@media (max-width:576px){
-    .header{
+@media (max-width:576px) {
+    .header {
         flex-direction: column;
     }
 
-    nav{
+    nav {
         padding: 10px;
-        text-align:left;
+        text-align: left;
     }
 
 }
 
 /*Media VERSION 992-------*/
 
-@media (max-width:992px){
-    .header{
+@media (max-width:992px) {
+    .header {
         flex-direction: column;
     }
 
-    nav{
+    nav {
         padding: 10px;
     }
 
-    .sicons{
+    .sicons {
         visibility: hidden;
     }
 }
@@ -267,6 +268,9 @@ footer{
 
 /*Media VERSION 1200-------*/
 
-@media (max-width:1200px){
-    
+@media (max-width:1200px) {
+
+    body{
+        text-align: left;
     }
+}
