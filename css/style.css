@@ -127,6 +127,12 @@ width: 40%;
     width: 45%;
    }
 
+   .chicabolso img:hover{
+    opacity: 0.7;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
 /*Esto corresponde a seccion REGALOS*/
 
 
@@ -227,3 +233,40 @@ footer{
 .box__footer a:hover{
     opacity: 0.8;
 }
+
+/*Media VERSION 576-------*/
+
+@media (max-width:576px){
+    .header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px;
+        text-align:left;
+    }
+
+}
+
+/*Media VERSION 992-------*/
+
+@media (max-width:992px){
+    .header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px;
+    }
+
+    .sicons{
+        visibility: hidden;
+    }
+}
+
+
+/*Media VERSION 1200-------*/
+
+@media (max-width:1200px){
+    
+    }
