@@ -1,12 +1,11 @@
+@import "../scss/utils/variables";
 
-@import url(./scss/utils/_variables.scss);
-@import url(./scss/utils/_mixin.scss);
+@import "../scss/base/_base";
 
-@import url(./scss/base/_base.scss);
-
-@import url(./scss/components/_checkbtn.scss);
-@import url(./scss/components/_navbar.scss);
-@import url(./scss/pages/_contacto);
-@import url(./scss/pages/_nosotros.scss);
-@import url(./scss/pages/_regalos.scss);
-@import url(./scss/pages/_verano2022.scss);
+@import "../scss/components/_navbar";
+@import "../scss/components/footer";
+@import "../scss/components/_checkbtn";
+@import "../scss/pages/_contacto";
+@import "../scss/pages/_nosotros.scss";
+@import "../scss/pages/_regalos.scss";
+@import "../scss/pages/_verano2022.scss";
