@@ -1,0 +1,19 @@
+{
+  "name": "rios-camilo",
+  "version": "1.0.0",
+  "description": "Proyecto para CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camiloquimeyrios/camilo-rios.git"
+  },
+  "author": "Camilo Rios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camiloquimeyrios/camilo-rios/issues"
+  },
+  "homepage": "https://github.com/camiloquimeyrios/camilo-rios#readme"
+}
