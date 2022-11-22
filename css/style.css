@@ -27,15 +27,6 @@ a:visited {
   color: black;
 }
 
-.enlace {
-  position: absolute;
-  padding: 20px 50px;
-}
-
-.logo {
-  height: 80px;
-}
-
 nav ul {
   float: right;
   margin-right: 20px;
@@ -59,17 +50,17 @@ nav ul li {
   display: none;
 }
 
-.menu a:hover {
-  color: white;
+.enlacelogo {
+  padding: 20px 50px;
 }
 
-.li-link {
-  padding: 10px;
+.logo {
+  height: 80px;
 }
 
 /*Media VERSION 576-------*/
 @media (max-width: 576px) {
-  .enlace {
+  .enlacelogo {
     padding-left: 20px;
   }
   nav ul li a {
@@ -89,6 +80,9 @@ nav ul li {
 }
 /*Media VERSION 992-------*/
 @media (max-width: 992px) {
+  h1 {
+    margin: 4%;
+  }
   .checkbtn {
     display: block;
   }
@@ -115,21 +109,18 @@ nav ul li {
     align-items: center;
     height: 700px;
   }
-  h1 {
-    margin: 4%;
-  }
 }
 /*Media VERSION 1200-------*/
 @media (min-width: 1200px) {
+  h1 {
+    margin: 2%;
+  }
   .img-index-inicio {
     align-items: center;
     padding-left: 10%;
   }
   .img-index-inicio img {
     width: 40%;
-  }
-  h1 {
-    margin: 2%;
   }
   .slide img {
     width: 100%;
