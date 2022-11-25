@@ -56,8 +56,8 @@ nav ul li {
   margin-left: 2%;
 }
 
-/*Media VERSION 576-------*/
-@media (max-width: 576px) {
+/*Media VERSION 375-------*/
+@media (min-width: 375px) {
   .logo {
     padding-left: 20px;
   }
@@ -68,12 +68,7 @@ nav ul li {
     left: 0;
   }
   h1 {
-    margin: 8%;
-  }
-  article a img {
-    display: inline-block;
-    align-items: center;
-    height: 700px;
+    padding: 2%;
   }
 }
 /*Media VERSION 992-------*/
@@ -102,32 +97,19 @@ nav ul li {
   #check:checked ~ ul {
     left: 0;
   }
-  article a img {
-    display: inline-block;
-    align-items: center;
-    height: 700px;
-  }
 }
 /*Media VERSION 1200-------*/
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   h1 {
     margin: 2%;
   }
-  .img-index-inicio {
-    align-items: center;
-    padding-left: 10%;
-  }
-  .img-index-inicio img {
-    width: 40%;
-  }
-  .slide img {
-    width: 100%;
-    align-items: center;
-    padding-left: 4%;
-    padding-right: 4%;
-  }
+}
+@media (min-width: 375px) {
   article a img {
-    display: inline;
+    display: block;
+    align-items: center;
+    padding: 1px;
+    width: 100%;
   }
 }
 footer {
@@ -215,12 +197,10 @@ header form {
   transform: scale(1.1);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
   section .chicabolso img {
-    height: 600px;
-    width: 500px;
-    display: block;
     padding-left: 1%;
+    width: 100%;
   }
 }
 .publicidad {
@@ -229,43 +209,23 @@ header form {
   margin: 2%;
 }
 .publicidad img {
-  width: 50%;
-  height: 100%;
-}
-.publicidad p {
-  font-weight: 500;
-  color: grey;
-  font-size: 16px;
-  margin: 2%;
+  width: 100%;
 }
 
-@media (max-width: 576px) {
-  section .publicidad {
+p {
+  margin: 1%;
+}
+
+@media (max-width: 375px) {
+  .publicidad {
     display: block;
   }
-  section .publicidad img {
-    height: 500px;
-    width: 576px;
-  }
-}
-.catalogo img {
-  width: 30%;
-}
-.catalogo p {
-  font-weight: 500;
-  color: grey;
-  font-size: 16px;
-  max-width: 50%;
-  padding: 2%;
-}
-
-@media (max-width: 576px) {
-  section article .catalogo img {
-    display: inline-block;
-  }
-  section .catalogo img {
-    height: 550px;
-    width: 576px;
+  p {
+    font-weight: 500;
+    color: grey;
+    font-size: 16px;
+    margin: 2%;
+    padding: 1px;
   }
 }
 

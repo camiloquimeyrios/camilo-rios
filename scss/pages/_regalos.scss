@@ -1,29 +1,32 @@
 .publicidad {
     img {
-      width: 50%;
-      height: 100%;
+      width: 100%;
+  
     }
   
     display: flex;
     justify-content: space-between;
     margin: 2%;
   
-    p {
-      font-weight: 500;
-      color: $colorfortext;
-      font-size: 16px;
-      margin: 2%;
-    }
   }
 
-  @media (max-width: 576px) {
+  p{
+    
+    margin: 1%;
+  }
 
-    section .publicidad {
-        display: block;
-      
-        img {
-          height: 500px;
-          width: 576px;
-        }
+  @media (max-width: 375px) {
+
+    .publicidad {
+      display: block;
+      }
+
+      p {
+        font-weight: 500;
+        color: $colorfortext;
+        font-size: 16px;
+        margin: 2%;
+        padding: 1px;
+        
       }
     }
