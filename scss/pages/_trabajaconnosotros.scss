@@ -1,0 +1,45 @@
+
+@media (min-width: 375px) {
+
+    .chicabrasier {
+
+        padding:5%;
+        width: 100%;
+        display: inline-flex;
+
+    }
+
+    .box__brasier p{
+
+        max-width: 50%;
+        padding: 1%;
+
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+
+
+    .box__brasier p{
+
+        max-width: 800px;
+        display: inline-flex;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+
+
+    .box__brasier p{
+
+        max-width: 600px;
+
+    }
+
+}
