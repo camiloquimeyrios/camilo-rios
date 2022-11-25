@@ -21,24 +21,30 @@
 
     <header>
 
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="../index.html">
 
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
+                <img src="../img/logo-toto.png" class="logo" alt="logo">
 
-            <a href="../index.html" class="enlace">
-                <img class="logo" src="../img/logo-toto.png" alt="Logo">
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <ul>
-                <li><a href="../pages/nosotros.html" class="li-link">NOSOTROS</a> </li>
-                <li><a href="../pages/regalos.html" class="li-link">REGALOS</a></li>
-                <li><a href="../pages/verano2022.html" class="li-link">VERANO 2022</a></li>
-                <li><a href="../pages/contacto.html" class="li-link">CONTACTO</a></li>
 
-            </ul>
+            <div class="collapse navbar-collapse bg-white" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav ml-auto">
+
+                    <a class="nav-item nav-link" href="../pages/regalos.html"> Regalos</a>
+                    <a class="nav-item nav-link" href="../pages/nosotros.html">Nosotros</a>
+                    <a class="nav-item nav-link" href="../pages/verano2022.html">Verano 2022</a>
+                    <a class="nav-item nav-link" href="../pages/contacto.html">Contacto</a>
+
+                </div>
+
+            </div>
 
         </nav>
 
@@ -83,7 +89,7 @@
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Deseo recibir ofertas y novedades.</label>
                               </div>
-                              <button type="submit" class="btn btn-secondary">Submit</button>
+                              <button type="submit" class="btn btn-secondary">Enviar</button>
                           </form>
                       </div>
 

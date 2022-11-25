@@ -1,6 +1,5 @@
 
 
-
 @media (min-width: 375px) {
 
     article a img {
@@ -12,4 +11,22 @@
 
 }
 
+@media (min-width: 1200px) {
+
+    .prin {
+
+align-items: justify;
+padding-left: 15%;
+    
+    a img {
+        display: inline;
+        align-items: center;
+        width: 40%;
+
+    }
+    }
+
+    
+
+}
 
