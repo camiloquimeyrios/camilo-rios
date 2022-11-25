@@ -5,3 +5,11 @@ iframe{
   padding: 5%;
 }
   }
+
+
+  @media (min-width: 992px) {
+    iframe{
+      display: block;
+      padding: 5%;
+    }
+      }

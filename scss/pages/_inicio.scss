@@ -1,6 +1,6 @@
 
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
 
     article a img {
         display: block;
@@ -9,6 +9,24 @@
         width: 100%;
     }
 
+
+}
+
+
+@media (min-width: 992px) {
+
+    .prin {
+
+        align-items: justify;
+        padding-left: 15%;
+            
+            a img {
+                display: inline;
+                align-items: center;
+                width: 40%;
+        
+            }
+            }
 }
 
 @media (min-width: 1200px) {
