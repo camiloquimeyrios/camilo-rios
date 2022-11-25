@@ -304,8 +304,10 @@ p {
     max-width: 600px;
   }
 }
-.novedades {
-  padding: 2%;
+@media (max-width: 375px) {
+  .novedades {
+    padding: 8%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
