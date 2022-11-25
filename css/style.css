@@ -304,9 +304,14 @@ p {
     max-width: 600px;
   }
 }
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .novedades {
-    padding: 8%;
+    padding: 10%;
+  }
+}
+@media (min-width: 992px) {
+  .novedades {
+    padding: 1%;
   }
 }
 
