@@ -1,13 +1,7 @@
-header form {
-    margin-left: 30%;
-  }
-  
-  .visit .formcontact {
-    margin-top: 50px;
-    padding: 20px;
-  
-    label {
-      margin-top: 50px;
-      padding: 20px;
-    }
+
+  @media (max-width: 375px) {
+iframe{
+  display: block;
+  padding: 5%;
+}
   }

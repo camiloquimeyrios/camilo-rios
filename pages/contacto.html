@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toto Tejidos| Contacto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,44 +55,48 @@
 
             <article class="visit">
 
-                <h2> Visitanos. </h2>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26251.81196993833!2d-58.46451788231264!3d-34.667921595708606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbf6ecc6416b%3A0x7e1a82e0defbc2b3!2sVilla%20Soldati%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1664917982040!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
                 <h2> Rellena este formulario para ponerte en contacto con nosotros.</h2>
 
-                <form class="formcontact">
+                <div class="container">
+                    <div class="row align-items-start">
+                      <div class="col">
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect1">Example select</label>
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Example textarea</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                      </div>
 
-                    <label for="nombre-usuario">Nombre y Apellido</label>
-                    <input type="text" name="Nombre" id="nombre-usuario" requided>
+                      <div class="col">
+                                       <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26251.81196993833!2d-58.46451788231264!3d-34.667921595708606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbf6ecc6416b%3A0x7e1a82e0defbc2b3!2sVilla%20Soldati%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1664917982040!5m2!1ses-419!2sar"
+                    width="372px" height="372px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" requided>
+                      </div>
+                    </div>
 
-                    <div></div>
-
-                    <label for="opciones">Opciones</label>
-                    <select name="opciones" id="opciones">
-                        <option value="consultas">Consultas</option>
-                        <option value="compras-mayoristas">Compras mayoristas</option>
-                        <option value="envios-al-exterior">Envios al exterior</option>
-                        <option value="otros">Otros</option>
-
-                    </select>
-
-                    <div></div>
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                    <div></div>
-
-                    <label for="checkbox"> ¿Quiere recibir ofertas especiales de Toto Tejidos?</label>
-                    <input type="checkbox" name="ofertas-especiales" value="si-ofertas" requided>
-
-                    <input type="submit" value="Enviar">
-
-                </form>
+               
 
             </article>
 
@@ -138,7 +144,9 @@
         </div>
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

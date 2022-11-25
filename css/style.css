@@ -53,13 +53,13 @@ nav ul li {
 .logo {
   height: 80px;
   padding: 4px;
-  margin-left: 2%;
 }
 
 /*Media VERSION 375-------*/
 @media (min-width: 375px) {
   .logo {
     padding-left: 20px;
+    margin: 1%;
   }
   nav ul li a {
     font-size: 16px;
@@ -157,19 +157,12 @@ footer {
   opacity: 0.8;
 }
 
-header form {
-  margin-left: 30%;
+@media (max-width: 375px) {
+  iframe {
+    display: block;
+    padding: 5%;
+  }
 }
-
-.visit .formcontact {
-  margin-top: 50px;
-  padding: 20px;
-}
-.visit .formcontact label {
-  margin-top: 50px;
-  padding: 20px;
-}
-
 .container__us {
   display: flex;
   flex-wrap: wrap;
